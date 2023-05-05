@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  tws_portfolio:
+    container_name: "tws_portfolio_web"
+    build: .
+    ports:
+      - 8080:80
+
